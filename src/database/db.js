@@ -9,7 +9,7 @@ module.exports = db
 
 // utilizar o objeto de banco de dados para nossas operações
 
-//  db.serialize(() => {
+//   db.serialize(() => {
 
 //     //     // Criar uma tabela com comandos SQL
 //     //     db.run(`
@@ -73,7 +73,7 @@ module.exports = db
 //         // })
 
 //     //      consultar os dados da tabela
-//         db.all(`SELECT name FROM places`, function(err, rows){
+//         db.all(`SELECT * FROM places`, function(err, rows){
 //             if(err){
 //                 return console.log(err)
 //             }
